@@ -1,0 +1,5 @@
+ftp -n << EOF
+open ftp.infor.com
+user Abcd password
+put logs.zip 
+EOF
